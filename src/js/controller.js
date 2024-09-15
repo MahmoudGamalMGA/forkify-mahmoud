@@ -124,8 +124,8 @@ const controlAddRecipe = async function (newRecipe) {
   }
 };
 
-const welcome = function () {
-  console.log('Welcome to my application, I am Mahmoud.');
+const welcomeMSG = function (name) {
+  console.log(`Welcome to the application, I am ${name}.`);
 };
 
 const init = function () {
@@ -136,6 +136,6 @@ const init = function () {
   searchView.addHandlerSearch(controlSearchResults);
   paginationView.addHandlerPagination(controlPagination);
   addRecipeView.addHandlerUpload(controlAddRecipe);
-  welcome();
+  welcomeMSG('Mahmoud');
 };
 init();
