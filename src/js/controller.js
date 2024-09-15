@@ -9,7 +9,7 @@ import addRecipeView from './views/addRecipeView.js';
 
 import 'regenerator-runtime/runtime'; //polyfilling async/await
 import 'core-js/stable'; //polyfilling everything else
-import { async } from 'regenerator-runtime/runtime';
+import 'regenerator-runtime/runtime';
 
 // https://forkify-api.herokuapp.com/v2
 
